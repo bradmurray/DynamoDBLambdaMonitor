@@ -4,6 +4,8 @@ Monitor DynamoDB with Lambda to increase and decrease throughput as needed
 
 ## Installation
 - Create a Lambda function in your AWS account
+- Set it to use the minimum memory (128MB)
+- Select a role that has dynamodb access
 - Enter the code in from /index.js
 - Set the table name to match your DynamoDB table
 - Set a schedule in "Event Sources" for how often you want it to run
